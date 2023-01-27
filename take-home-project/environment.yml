@@ -1,0 +1,12 @@
+name: weave_task
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+- python
+- pip
+- sentence-transformers
+- pip:
+  - jina==3.13.2
+  - protobuf==3.20.0
+  - annlite
